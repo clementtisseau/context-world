@@ -1,0 +1,3 @@
+display_name: Clarify Intent
+short_description: Turn vague requests into a compact execution artifact with scope, criteria, and storage guidance.
+default_prompt: Convert the user's request into a compact intent artifact with clear goal, scope, non-goals, acceptance criteria, missing context, and a suggested storage scope.
