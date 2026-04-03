@@ -11,11 +11,22 @@ Make the dashboard better for onboarding.
 Output:
 
 ```markdown
+I need a bit more context before I can turn this into an execution-ready brief.
+
+Questions
+1. Is the main problem activation, feature discovery, or reducing confusion on first login?
+2. Should this work target brand-new users only, or also returning users who have not finished setup?
+3. Do you want a UX/content improvement brief only, or should implementation-ready UI changes be included?
+
+Why these matter
+- Each answer changes the likely scope, the success criteria, and whether this is primarily a product-writing task, a UX task, or a code change.
+```
+
+After user answers:
+
+```markdown
 Goal
 - Improve the dashboard so new users understand what to do first and can reach an initial success state faster.
-
-Why it matters
-- Weak onboarding reduces activation and makes the dashboard feel confusing or empty.
 
 Scope
 - Clarify the first-run experience on the dashboard.
@@ -37,13 +48,9 @@ Open questions
 - Which user segment is "new users" referring to?
 - Is the issue copy, layout, missing product guidance, or all three?
 
-Context needed
+Additional context needed
 - Current dashboard screenshots or code.
 - Existing onboarding metrics or known pain points.
-
-Suggested storage scope
-- component-specific
-- Reason: this clarification appears to define expectations for one product surface, not the whole project.
 ```
 
 ## Example 2
@@ -57,11 +64,22 @@ Set up the repo so changes always get tested before merge.
 Output:
 
 ```markdown
+I need a bit more context before I can turn this into an execution-ready brief.
+
+Questions
+1. Which git hosting system is in use: GitHub, GitLab, or something else?
+2. Should every pull request be blocked on the full test suite, or only on a required subset?
+3. Do you want this enforced through CI, branch protection rules, or both?
+
+Why these matter
+- The enforcement mechanism, required checks, and implementation path depend directly on these choices.
+```
+
+After user answers:
+
+```markdown
 Goal
 - Establish a pre-merge testing rule so code changes are validated automatically before they are merged.
-
-Why it matters
-- This reduces regressions and makes repository quality checks consistent.
 
 Scope
 - Define and enforce the required automated checks for pull requests.
@@ -82,12 +100,8 @@ Open questions
 - Which test suites are mandatory versus optional?
 - Which merge system is in use?
 
-Context needed
+Additional context needed
 - Current CI configuration.
 - Branch protection settings.
 - Test command inventory.
-
-Suggested storage scope
-- project-wide
-- Reason: this is a durable workflow rule that should affect the whole repository.
 ```

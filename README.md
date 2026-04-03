@@ -24,4 +24,4 @@ These skills should not only help Codex complete tasks. They should also help de
 
 The first skill is `clarify-intent`.
 
-Its role is to take vague or underspecified requests and turn them into a compact working artifact that can guide execution and suggest the right storage scope for the resulting context.
+Its role is to ask a small number of high-value clarification questions when a request is vague or underspecified, then rewrite the request as a compact execution brief that can guide the next implementation step.
